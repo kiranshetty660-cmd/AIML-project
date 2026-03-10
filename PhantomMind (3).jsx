@@ -20,7 +20,7 @@ body{font-family:'Syne',sans-serif;background:var(--bg);color:var(--tx);overflow
              radial-gradient(ellipse 55% 45% at 90% 20%,rgba(14,165,233,.08),transparent),
              radial-gradient(ellipse 45% 55% at 50% 95%,rgba(219,39,119,.06),transparent),var(--bg);}
 .grid-bg{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.03;
-  background-image:linear-gradient(var(--v2) 1px,transparent 1px),linear-gradient(90deg,var(--v2) 1px,transparent 1px);
+  background-image:l-gradient(var(--v2) 1px,transparent 1px),linear-gradient(90deg,var(--v2) 1px,transparent 1px);
   background-size:48px 48px;}
 .scan{position:fixed;inset:0;z-index:9999;pointer-events:none;
   background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(109,40,217,.015) 2px,rgba(109,40,217,.015) 4px);}
