@@ -611,7 +611,7 @@ export default function PhantomMind(){
       <header className="hdr">
         <div className="logo-g">
           <div className="orb"><div className="orb-i">👻</div></div>
-          <div><div className="logo">PHANTOM </div><div className="logo-sub">COLLECTIVE MARKET CONSCIOUSNESS ENGINE</div></div>
+          <div><div className="logo">PHANTOM MIND</div><div className="logo-sub">COLLECTIVE MARKET CONSCIOUSNESS ENGINE</div></div>
         </div>
         <div className="hdr-right">
           {[{v:fmt(prices.BTC.price),l:"BTC PRICE",c:"var(--g3)"},{v:`${Math.round(score)}/100`,l:"CONSCIOUSNESS",c:cColor},{v:`${totalScored} SCORED`,l:"FINBERT",c:"var(--v3)"},{v:"4 BOTS",l:"PREDICTION",c:"var(--c2)"}].map((s,i)=>(
