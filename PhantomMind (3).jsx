@@ -42,7 +42,7 @@ body{font-family:'Syne',sans-serif;background:var(--bg);color:var(--tx);overflow
   background:linear-gradient(180deg,rgba(109,40,217,.1),transparent);backdrop-filter:blur(20px);}
 .logo-g{display:flex;align-items:center;gap:13px;}
 .orb{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;
-  backgd:radial-gradient(circle,rgba(109,40,217,.5),transparent 70%);animation:glow 3s ease-in-out infinite;position:relative;}
+  background:radial-gradient(circle,rgba(109,40,217,.5),transparent 70%);animation:glow 3s ease-in-out infinite;position:relative;}
 .orb::before{content:'';position:absolute;inset:-2px;border-radius:50%;
   border:1.5px solid transparent;
   background:linear-gradient(135deg,var(--v2),var(--c)) border-box;
